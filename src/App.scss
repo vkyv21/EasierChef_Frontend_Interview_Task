@@ -1,0 +1,13 @@
+.app{
+  .nav{
+    ul{
+      display: flex; 
+      li{
+        list-style: none;
+        .selected{
+          display: none;
+        }
+      }
+    }
+  }
+}

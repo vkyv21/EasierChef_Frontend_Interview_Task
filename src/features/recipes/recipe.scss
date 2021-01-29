@@ -1,0 +1,21 @@
+.card{
+    max-width: 345px;
+    .ingredients{
+        list-style: none;
+    }
+    .media{
+        height: 0;
+        padding-top:56.25%;
+    }
+    .expand{
+        transform: rotate(0deg);
+        margin-left: auto;
+        transition: all 2s;
+        &.expandOpen{
+            transform: rotate(180deg);
+        }
+    }
+    .avatar{
+        background: #c0c0c0;
+    }
+}
